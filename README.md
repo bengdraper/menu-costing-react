@@ -1,3 +1,29 @@
+page structure overview
+
+HOME PAGE
+    Not sure yet
+MENUS PAGE
+    Menus overview, link to each menu as subPage component
+INGREDIENTS PAGE
+    All ingredients master list, or sort by location, access each as subPage component
+RECIPE PAGE
+    as expected
+ORG SETUP PAGE
+    Define categories and menu types
+USERS PAGE
+    creds and permissions
+EngineeringPage
+    cost matrix
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
