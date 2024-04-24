@@ -1,4 +1,3 @@
-// import { useReducer } from "react";
 import { useState } from "react";
 
 const InputForm = () => {
@@ -10,22 +9,22 @@ const InputForm = () => {
 
     const submitHandler = async (e) => {
         try {
-        e.preventDefault();
-        console.log(formData);
-        const body = JSON.stringify(formData);
-        const response = await fetch("http://localhost:4000/adduser", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: body
-        });
-        window.location = "/"
+            e.preventDefault();
+            console.log(formData);
+            const body = JSON.stringify(formData);
+            const response = await fetch("http://localhost:4000/adduser", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: body
+            });
+            window.location = "/"
 
-    } catch (error) {
-        console.error(error);
-    }
-};
+        } catch (error) {
+            console.error(error);
+        }
+    };
 
     const retrieveUsers = async () => {
         try {
@@ -46,12 +45,12 @@ const InputForm = () => {
     return (
 
         <>
-        <button
-            type="click"
-            onClick={() => {
-                retrieveUsers();
-                alert('Check console for data')
-            }}
+            <button
+                type="click"
+                onClick={() => {
+                    retrieveUsers();
+                    alert('Check console for data')
+                }}
             >CHECK DATA</button>
             <form onSubmit={(e) => submitHandler(e)}>
 

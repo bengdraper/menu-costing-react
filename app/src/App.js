@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Header from './components/Header';
 
+import LoginPage from './pages/LoginPage';
 import HomePage from "./pages/HomePage";
 import UserPage from './pages/UserPage';
 import MenusPage from './pages/MenusPage';

@@ -1,8 +1,13 @@
+import NewIngredient from '../components/NewIngredient';
 
 const IngredientsPage = () => {
+
+
   return (
-    <div>IngredientsPage
-        <p>list ingredients depending on menu selected</p>
+
+    <div>
+      <h1>hello</h1>
+      <NewIngredient />
     </div>
   )
 }

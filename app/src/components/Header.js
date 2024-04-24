@@ -28,6 +28,11 @@ const Header = () => {
                         </NavLink>
                     </NavItem>
                     <NavItem>
+                        <NavLink to='/IngredientsPage' className='nav-link'>
+                            Ingredients  <i className='fa fa-cutlery ' />
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
                         <NavLink to='/UserPage' className='nav-link'>
                             Users  <i className='fa fa-user fa-lg' />
                         </NavLink>
